@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Alexis Huellou - Étudiant ESGI</title>
+        <meta name="description" content="Apprenti Ingénieur IT & Réseaux - Thales">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            html {
+                /* Box model */
+                box-sizing: border-box;
+
+                /* Typo */
+                font-size: 16px;
+            }
+
+            *, *:before, *:after {
+                box-sizing: inherit;
+            }
+
+            html,
+            body {
+                margin: 0;
+            }
+
+            body {
+                /* Typo */
+                font-family: 'Lato', sans-serif;
+                color: #555;
+            }
+
+            body > header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 2rem 0;
+            }
+
+            h1, h2 {
+                color: #444;
+                -webkit-font-smoothing: antialiased;
+            }
+
+            h1 {
+                /* Box model */
+                margin: 1rem 0 0;
+
+                /* Typo */
+                font-size: 2.5rem;
+                font-weight: 300;
+            }
+
+            img {
+                border-radius: 50%;
+            }
+
+            main {
+                max-width: 45em;
+                margin: 0 auto;
+                padding: 1rem;
+            }
+
+
+            h2 {
+                font-size: 2rem;
+                font-weight: 400;
+            }
+
+            hr {
+                /* Box model */
+                width: 6rem;
+                margin: 3rem 0;
+
+                /* Visual */
+                border: none;
+                border-bottom: 1px solid #ddd;
+            }
+
+            p, ul {
+                font-size: 1.4rem;
+                font-weight: 300;
+                line-height: 1.5;
+            }
+
+            p {
+                font-size: 1.4rem;
+            }
+
+            p + p {
+                margin-top: 0;
+            }
+
+
+            strong {
+                font-weight: 400;
+            }
+
+            a, a:visited {
+                /* Box model */
+                padding-bottom: .2rem;
+
+                /* Typo */
+                color: #7c67b2;
+                text-decoration: none;
+
+                /* Visual */
+                border-bottom: 1px solid #ddd;
+                transition: border-bottom-color .2s linear;
+            }
+
+            a:hover {
+                border-bottom-color: #676ab2;
+            }
+
+            ul {
+                /* Box model */
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0;
+                padding: 0 0 1rem;
+
+                /* Visual */
+                list-style-type: none;
+            }
+
+            li:not(:first-child) {
+                padding-left: .8rem;
+            }
+
+            li:not(:last-child):after {
+                /* Box model */
+                content: '•';
+                padding-left: .8rem;
+
+                /* Typo */
+                font-size: .8rem;
+                color: #ddd;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img width="125" height="125" src="ha1.jpg" alt="Alexis Huellou" />
+            <h1>Alexis Huellou</h1>
+        </header>
+        <main>
+            <section>
+                <header>
+                    <h2>Apprenti Ingénieur IT & Réseaux</h2>
+                </header>
+                <hr>
+                <p>
+                    Hello, je suis Alexis Huellou, apprenti Ingénieur IT & Réseaux @ <a href="https://www.thalesgroup.com/fr">Thales</a>
+                </p>
+                <p>
+                    J'étudie au sein de l'<strong><a href="https://www.esgi.fr">ESGI</a></strong> <small>(Système, Réseaux & Cloud)</small>.
+                </p>
+                <hr>
+                <footer>
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/alexis-huellou/" title="Visiter mon LinkedIn">
+                                LinkedIn
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/alxis99/" title="Visiter mon profil Github">
+                                Github
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://docs.ha1.fr" title="Consulter mes documentations">
+                                Documentations
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:contact@ha1.fr" title="Me contacter">
+                                Me contacter
+                            </a>
+                        </li>
+                    </ul>
+                </footer>
+            </section>
+        </main>
+    </body>
+</html>
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
