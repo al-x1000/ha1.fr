@@ -14,6 +14,6 @@
 
 
 ## Made by Alexis Huellou
-<table align="center"><tr><td valign="top" width="50%" align="center">
+<td valign="top" width="50%" align="center">
 <img src="https://i.imgur.com/0UW1yhc.gif" align="left" height="200" width="350" />
-</td></table>  
+</td>
